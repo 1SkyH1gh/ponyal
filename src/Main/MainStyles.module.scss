@@ -1,0 +1,78 @@
+.main{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  .ControlPanel{
+   
+    background: darkcyan;
+      .action{
+
+      }
+  }
+  .videoList{
+
+  }
+  .avatarFull{
+
+  }
+  .avatarDescription{
+
+    .actionDescr{
+
+    }
+  }
+  .status{
+
+    .nickname{
+
+      font-size:16px;
+
+    }
+    .profess{
+
+      font-size:14px;
+      color:grey;
+    }
+    .status{
+
+      font-size:12px;
+
+    }
+  }
+.post{
+
+  .postTitle{
+
+  }
+  .postBody{
+
+  }
+  .postDate{
+
+  }
+  .actionPost{
+
+  }
+}
+  .subscribe{
+
+  }
+  .message{
+
+    .formMess{
+
+    }
+    .inputMess{
+
+    }
+    .sendMess{
+
+    }
+  }
+  .recommended{
+
+  }
+  .imageGal{
+
+  }
+}

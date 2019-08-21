@@ -1,0 +1,37 @@
+.newsNewCont{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height:300px;
+  background: darkseagreen;
+  width:100%;
+  justify-content: space-between;
+  .news{
+    order:1;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: darkcyan;
+  }
+  .stream{
+    order:2;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height:90%;
+
+    background: coral;
+  }
+  .streamBar{
+    order:3;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background: darksalmon
+  ;
+  }
+}
